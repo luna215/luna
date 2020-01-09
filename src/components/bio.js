@@ -40,6 +40,10 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
+      <p>
+      Hi! I am a software engineer for DealerControl, accomplished traveler (I’ve only been to, like, two countries lol), and thoughtful engineer.  As an engineer, I strive to listen first, understand second, and talk last. During the weekends, I am usually volunteering for the DIY Girls organization. (Check them out/contribute, they are doing some amazing stuff!)
+        {` `}
+      </p>
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}
@@ -53,10 +57,6 @@ const Bio = () => {
           borderRadius: `100%`,
         }}
       />
-      <p>
-      Hi! I am a software engineer for DealerControl, accomplished traveler (I’ve only been to, like, two countries lol), and thoughtful engineer.  As an engineer, I strive to listen first, understand second, and talk last. During the weekends, I am usually volunteering for the DIY Girls organization. (Check them out/contribute, they are doing some amazing stuff!)
-        {` `}
-      </p>
     </div>
   )
 }
