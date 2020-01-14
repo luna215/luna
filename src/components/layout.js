@@ -49,19 +49,22 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          // maxWidth: rhythm(24),
-          // padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <header style={{
           background: `orange`,
-          width: `100%`
+          width: `100%`,
         }}>
           {header}
           <Bio />
         </header>
         
-        <main>
+        <main style={{
+          marginLeft: `10%`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        }}>
           {children}
         </main>
         <footer>
