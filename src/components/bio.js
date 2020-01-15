@@ -40,7 +40,14 @@ const Bio = () => {
         marginBottom: rhythm(2.5),
       }}
     >
-      <p>
+      <p
+        style={{
+          width: `40%`,
+          marginLeft: `11%`,
+          fontSize: `0.8rem`,
+          marginBottom: `5%`
+        }}
+      >
       Hi! I am a software engineer for DealerControl, accomplished traveler (I’ve only been to, like, two countries lol), and thoughtful engineer.  As an engineer, I strive to listen first, understand second, and talk last. During the weekends, I am usually volunteering for the DIY Girls organization. (Check them out/contribute, they are doing some amazing stuff!)
         {` `}
       </p>

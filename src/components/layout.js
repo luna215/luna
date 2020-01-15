@@ -21,6 +21,7 @@ class Layout extends React.Component {
             marginTop: 0,
             width: `35%`,
             marginLeft: `10%`,
+            paddingTop: `5%`,
           }}
         >
             {title}
