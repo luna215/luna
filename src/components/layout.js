@@ -16,8 +16,11 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1),
+            fontSize: `2.25rem`,
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            width: `35%`,
+            marginLeft: `10%`,
           }}
         >
             {title}
@@ -49,11 +52,13 @@ class Layout extends React.Component {
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
+          height: `100%`
         }}
       >
         <header style={{
           background: `orange`,
           width: `100%`,
+          height: `100%`
         }}>
           {header}
           <Bio />

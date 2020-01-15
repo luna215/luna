@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `🌘 Greetings! Paul Luna is a writer, philanthropist, and software engineer`,
+    title: `🌘 Greetings! Paul Luna is\na writer, philanthropist, and software engineer`,
     author: `Paul Luna`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
